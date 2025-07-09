@@ -7,9 +7,7 @@ function onError(error) {
 }
 
 function onGot(item) {
-    console.log("Got videosPerRow:", item);
     if (item.videosPerRow) {
-        console.log("Setting videos per row to:", item.videosPerRow);
         videosPerRow = item.videosPerRow;
     }
 }
